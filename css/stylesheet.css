@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic|Quando|Source+Sans+Pro:400,300,600,700,600italic,900,400italic|Oswald:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Lustria);
+
+/*HEADER*/
+#header-wrapper{z-index: 999; background:#730b0a; }
+#header-details{padding: 20px 0 20px 0; }
+#header-details span{color:#fff;  font-family: 'Lustria', serif; font-size: 28px; line-height: 2; padding-left:5px;}
+#header-logo{ height: auto; float: left; padding-right: 5px;}
+
+/*NAVBAR*/
+#navbar-wrapper{position: relative; background: #d69402; font-size:15px ; font-family: 'Oswald', sans-serif; list-style: none; margin-bottom: 50px;}
+#navbar-maintabs li, #navbar-subtabs li{text-decoration: none; float: right; display: block; }
+#navbar-maintabs li a, #navbar-subtabs li a{color:#1b1a1a; -webkit-border-bottom: 2px solid #d69402!important; border-bottom: 2px solid #d69402!important; }
+#navbar-maintabs li a:visited, #navbar-subtabs li a:visited{color:#1b1a1a; background: #d69402; }
+#navbar-maintabs li a:hover, #navbar-subtabs li a:hover{color:#fff; background: #730b0a; border-bottom: 2px solid #fff !important;}
+#navbar-maintabs li a:active, #navbar-subtabs li a:active{color:#fff; background: #730b0a; border-bottom: 2px solid #fff !important;}
+#navbar-subtabs-logo{padding: 0 5px 0 5px;}
+
+
+/*TEMPORARY-delete*/ 
+#TEMPORARY {padding:200px 0;}
+#TEMPORARY span{font-size: 3vw; font-family: 'Source Sans Pro', sans-serif; color: #333; }
+
+/*FOOTER*/
+#footer-wrapper{position:relative; background:#131313; z-index: 888; bottom:0; margin-top:50px; padding: 25px 0; }
+#footer-details {text-align: left; }
+#footer-details a:hover{color:#fff;}
+#footer-details span{font-size: 18px; font-family: 'Lustria', serif; color: #fff; line-height: 2;}
+#footer-details p {color: #fff; font-size: 14px; font-family: 'Lustria', serif; font-weight: bold; }
+#footer-form input, #footer-form button {border-radius: 0 !important; }
+#footer-form button {background: #504d4d; color: #e1e1e1;}
+
+
+
+
+/*------------------MEDIA QUERIES-----------------*/
+@media only screen and (max-width:1200px){
+
+}
+@media only screen and (max-width:1140px){
+
+}
+@media only screen and (max-width:1024px){
+
+}
+@media only screen and (max-width:768px) {
+
+}
+@media only screen and (max-width:640px) {
+	
+}
+@media only screen and (max-width:480px) {
+	
+}
