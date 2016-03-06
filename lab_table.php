@@ -242,7 +242,10 @@
     </div>    
 </div>
 </div>
-	<button type="button" onclick="alert('Hello world!')" id="save-button" name="save-button">Save</button>
+	<table>
+		<tr><button type="button" onclick="alert('Hello world!')" id="compute-button" name="compute-button">Compute</button></tr>
+		<tr><button type="button" onclick="alert('Hello world!')" id="save-button" name="save-button">Save</button></tr>
+	</table>
  </div>
     </div>
 
