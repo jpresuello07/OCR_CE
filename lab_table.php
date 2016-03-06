@@ -238,6 +238,7 @@
 
                 </tr>
             </table>
+            <button type="button" onclick="alert('Hello world!')" id="save-button" name="save-button">Save</button>
         </div>
     </div>    
 </div>
@@ -271,6 +272,7 @@
 <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
 <script type="text/javascript" src="js/sidebar.js"></script>
 <script type="text/javascript" src="js/table.js"></script>
+<script type="text/javascript" src="js/button.js"></script>
 <script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="plugins/bootstrap/js/script.js"></script>
 
