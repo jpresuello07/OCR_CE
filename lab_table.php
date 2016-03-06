@@ -238,11 +238,11 @@
 
                 </tr>
             </table>
-            <button type="button" onclick="alert('Hello world!')" id="save-button" name="save-button">Save</button>
         </div>
     </div>    
 </div>
 </div>
+	<button type="button" onclick="alert('Hello world!')" id="save-button" name="save-button">Save</button>
  </div>
     </div>
 
