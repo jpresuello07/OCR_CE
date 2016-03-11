@@ -243,8 +243,11 @@
 </div>
 </div>
 	<table>
-		<tr><button type="button" onclick="return getAllData();" id="compute-button" name="compute-button">Compute</button></tr>
+		<tr><button type="button" onclick="return getAllData(<?php echo "1"; // echo the table number for classification ?>);" id="compute-button" name="compute-button">Compute</button></tr>
 		<tr><button type="button" onclick="alert('Hello world!')" id="save-button" name="save-button">Save</button></tr>
+		<?php // my edits ?>
+		<p id='status'></p>
+		<?php // end of my edits ?>
 	</table>
  </div>
     </div>
@@ -270,7 +273,6 @@
             </div>
         </div> <!-- container -->
     </div> <!-- container-fluid -->
-
 <script type="text/javascript" src="plugins/bootstrap/js/jquery-2.1.4.min.js"></script>
 <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
 <script type="text/javascript" src="js/sidebar.js"></script>
